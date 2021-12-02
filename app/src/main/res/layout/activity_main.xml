@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="201dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="551dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/teal_200"
+        android:text="@string/btn_name"
+        android:textSize="16sp"
+        app:backgroundTint="?attr/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/syougatsu2_omijikuji2" />
+
+    <Button
+        android:id="@+id/license"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/licence"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

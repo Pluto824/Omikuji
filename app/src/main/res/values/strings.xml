@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">おみくじ</string>
+    <string name="btn_name">おみくじを引く！</string>
+    <string name="onemore">もう一度回す</string>
+    <string name="error">エラー</string>
+    <string name="licence">ライセンス表示</string>
+</resources>
